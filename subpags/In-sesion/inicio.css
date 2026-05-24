@@ -1,0 +1,46 @@
+.barra-superior {
+  display: center;
+  justify-content: space-between;
+  background-color: #7BD981; /* Color de fondo */
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.barra-superior .logo {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.barra-superior .menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.barra-superior .menu a:hover {
+  text-decoration: underline;
+}
+.logo-img {
+  height: 40px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.barra-inferior {
+  background-color: #7BD981;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.container-insesion {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+}
