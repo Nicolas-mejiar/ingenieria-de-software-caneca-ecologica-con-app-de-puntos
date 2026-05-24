@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background:#e8f5e9;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:#7BD981;
+    padding:15px 40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo img{
+    height:40px;
+}
+
+.menu{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.menu a,
+.perfil-btn{
+    text-decoration:none;
+    color:black;
+    background:#8be28f;
+    padding:10px 18px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+}
+
+/* CONTENIDO */
+
+.contenedor{
+    text-align:center;
+    margin-top:50px;
+}
+
+.contenedor h1{
+    color:#0a7a2f;
+}
+
+/* CARDS */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
+}
+
+.card{
+    background:white;
+    width:260px;
+    padding:30px;
+    border-radius:25px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:150px;
+    margin-top:20px;
+}
+
+.puntos{
+    margin-top:20px;
+    color:gray;
+    font-size:25px;
+}
+
+/* PERFIL */
+
+.perfil{
+    position:relative;
+}
+
+/* DROPDOWN */
+
+.dropdown{
+    position:absolute;
+    right:0;
+    top:60px;
+
+    width:220px;
+    background:white;
+
+    border-radius:15px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+
+    display:none;
+    overflow:hidden;
+}
+
+.perfil:hover .dropdown{
+    display:block;
+}
+
+.perfil-info{
+    padding:20px;
+    border-bottom:1px solid #ddd;
+}
+
+.dropdown a{
+    display:block;
+    padding:15px 20px;
+    background:white;
+    border-radius:0;
+}
+
+.dropdown a:hover{
+    background:#f2f2f2;
+}
+
+.cerrar{
+    color:red !important;
+}

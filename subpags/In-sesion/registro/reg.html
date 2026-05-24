@@ -13,13 +13,21 @@
         </div>
         <div class="menu">
             <a href="#Ayuda">Ayuda</a>
-            <a href="#Inicio">Inicio</a>
+            <a href="/subpags/">Inicio</a>
             <a href="#Iniciar sesion">Iniciar sesion</a>
         </div>
     </nav>
 <div class="container-registro">
     <form action="/subpags/es/registro.html" method="post">
         <h2>Registro</h2>
+        <div class="role-container">
+            <label for="role">Rol:</label>
+            <select id="role" name="role" required>
+                <option value="estudiante">Estudiante</option>
+                <option value="administrador">Administrador</option>
+                <option value="personal_de_aseo">Personal de Aseo</option>
+            </select>
+        </div>
         <div class="username-container">
             <label for="username">Nombre de usuario:</label>
             <input type="text" id="username" name="username" required>
