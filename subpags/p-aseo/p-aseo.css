@@ -123,3 +123,12 @@ body{
 .cerrar{
     color:red !important;
 }
+.barra-inferior{
+    background-color: #7BD981;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

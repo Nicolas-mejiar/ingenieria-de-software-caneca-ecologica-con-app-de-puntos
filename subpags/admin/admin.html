@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Panel del Administrador</title>
+    <link href="admin.css" rel="stylesheet">
 </head>
-<body>
+<body class="">
+    <nav class="navbar">
+
+    <div class="logo">
+        <img src="/Img/logo.png" alt="Logo" class="logo-img">
+    </div>
+
+    <div class="menu">
+
+        <a href="#">Ayuda</a>
+        <a href="/index.html">Inicio</a>
     
+        <div class="perfil">
+            <button class="perfil-btn">
+                <img src="" alt="Perfil" class="perfil-img">
+            </button>
+
+                <div class="dropdown">
+
+                    <div class="perfil-info">
+                        <h4>Nombre del perfil</h4>
+                        <p>Administrador</p>
+                    </div>
+
+                    <a href="#">⚙ Editar perfil</a>
+                    <a href="#" class="cerrar">↪ Cerrar sesión</a>
+
+                </div>
+
+        </div>
+
+    </div>
+
+</nav>
+    <section class="contenedor">
+        <h1>Panel del Administrador</h1>
+        <div class="cards">
+            <div class="card">
+                <h2>Usuarios Registrados</h2>
+                <p>Gestiona los usuarios registrados en el sistema.</p>
+                <div class="card-actions">
+                    <button class="btn">Ver Usuarios</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Visulizar la lista Completa de los usuarios</h2>
+                <p>Visualiza y analiza los reportes de residuos generados por los sensores.</p>
+                <div class="card-actions">
+                    <button class="btn">Ver Reportes</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>impacto ambiental</h2>
+                <p>Mira tu contribución a la reducción de CO2.</p>
+                <div class="card-actions">
+                    <button class="btn">Ver Impacto</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer class="barra-inferior">
+    <p>&copy; 2026 SmartTrash U | Proyecto de ingeniería</p>
+</footer>
+
 </body>
 </html>
